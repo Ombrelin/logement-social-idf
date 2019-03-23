@@ -70,7 +70,8 @@ window.addEventListener("load", function () {
 
             // Si le code postal de ville commence par 75 il devient 75000 pour considérer Paris comme une seule ville
             let postcode = new String(data.features[0].properties.postcode).includes("75") ? 75000 : data.features[0].properties.postcode;
-
+            let codeinsee = new String(data.features[0].properties.citycode);
+            console.log(codeinsee);
             // 3) Récupération du nombre de LS de la ville
 
             $.ajax({ // Procédure AJAX
@@ -78,6 +79,14 @@ window.addEventListener("load", function () {
                 success: function (result) {
                     $('#ls').html((result)); // Met le récultat de la procédure AJAX dans la carte d'infos
                     compteur($('#ls'));
+                }
+            });
+
+            $.ajax({ // Procédure AJAX
+                url: "./ajax/tauxLS.php?codeinsee=" + codeinsee, // On fait appel à notre service PHP
+                success: function (result) {
+                    $('#txls').html((result)); // Met le récultat de la procédure AJAX dans la carte d'infos
+                    compteur($('#txls'));
                 }
             });
 

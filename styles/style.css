@@ -85,8 +85,14 @@ i{
 }
 
 #loader{
+    margin-left: 1vw;
     display: none;
 }
+
+#snlTag{
+    font-size: 1.3vw !important;
+}
+
 
 /*Style de l'entête*/
 
@@ -175,17 +181,6 @@ hr{
     border-radius: 5px;
 }
 
-/* Style des formulaire*/
-
-.invalide{
-    border-color: red !important;
-}
-
-.rouge{
-    color: red;
-    display: none;
-}
-
 /* Style du livre des lois*/
 
 .mdl-card__supporting-text{
@@ -221,47 +216,6 @@ h4{
 }
 
 #livreLois h3{
-    color: white !important;
-    text-align: center;
-}
-
-/* Style des propositions */
-
-#btnModaleAddProposition{
-    display: none;
-    color: white;
-}
-
-#proposition{
-    background-color: #E65100;
-}
-
-#proposition h3{
-    margin-top: 0;
-    padding-top: 3vw !important;
-}
-
-#proposition .mdl-card{
-    min-height: 0 !important;
-}
-
-#proposition .mdl-card__supporting-text{
-    display: none;
-}
-
-#proposition .mdl-card__title-text{
-    align-self: flex-start !important;
-    background-color: #323232 !important;
-    color: white !important;
-    width: 100% !important;
-    padding-left: 3vw;
-}
-
-#proposition .mdl-card__title-text:hover{
-    cursor: pointer;
-}
-
-#proposition h3{
     color: white !important;
     text-align: center;
 }

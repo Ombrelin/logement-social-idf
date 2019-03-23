@@ -41,11 +41,9 @@
     <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
     <!-- Script personnalisé-->
     <script type="text/javascript" src="scripts/carte.js"></script>
-    <script type="text/javascript" src="scripts/connexion.js"></script>
     <script type="text/javascript" src="scripts/livreLois.js"></script>
     <script type="text/javascript" src="scripts/scroll.js"></script>
     <script type="text/javascript" src="scripts/responsive.js"></script>
-    <script type="text/javascript" src="scripts/propositions.js"></script>
     <!-- Javascript Material Design -->
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
@@ -53,11 +51,12 @@
 <header>
     <div id="entete">
         <nav class="mdl-grid content-grid">
-            
+
             <div class="mdl-cell mdl-cell--7-col">
-                <div id="titreSite"><span id="toggleMenu"><i class="fa fa-bars"></i></span> &nbsp; LOGEMENT SOCIAL IDF</div>
+                <div id="titreSite"><span id="toggleMenu"><i class="fa fa-bars"></i></span> &nbsp; LOGEMENT SOCIAL IDF
+                </div>
             </div>
-            <div class="mdl-cell mdl-cell--2-col mdl-cell--12-col-phone" id="btnCarte"></div>
+            <div class="mdl-cell mdl-cell--2-col mdl-cell--12-col-phone"></div>
             <div class="mdl-cell mdl-cell--1-col mdl-cell--12-col-phone" id="btnCarte"><button
                     class="mdl-button mdl-js-button">
                     Carte
@@ -125,7 +124,7 @@
                             <div class="mdl-cell mdl-cell--10-col mdl-cell--10-col-phone">Population : <span
                                     id="pop"></span>
                             </div>
-                            
+
 
                             <div class="mdl-cell mdl-cell--2-col mdl-cell--2-col-phone"><i class="fa fa-home"></i></div>
                             <div class="mdl-cell mdl-cell--10-col mdl-cell--10-col-phone"> Nombre de logements sociaux :
@@ -180,22 +179,41 @@
 
 <!-- ================================================= Footer ======================================================= -->
 <footer class="mdl-grid content-grid">
-    <div class="mdl-cell mdl-cell--12-col">
+    <div class="mdl-cell mdl-cell--4-col">
         <h2>Sources</h2>
-        <hr>
+        <hr><br><br>
+
+        <ul>
+            <li><a href="https://www.data.gouv.fr/fr/datasets/repertoire-des-logements-locatifs-des-bailleurs-sociaux/">Données
+                    sur les logements Sociaux</a></li>
+            <li><a href="http://cohesion-territoires.gouv.fr/sru/docs/liste_219_communes_carencees_ciec_19042016-4.xls">Communes
+                    en carence SRU</a></li>
+            <li><a
+                    href="https://www.data.gouv.fr/fr/datasets/le-logement-social-collection-politiques-publiques-vie-publique-fr/">Lois</a>
+            </li>
+        </ul>
     </div>
 
-    <ul class="mdl-cell--12-col">
-        <li><a href="https://www.data.gouv.fr/fr/datasets/repertoire-des-logements-locatifs-des-bailleurs-sociaux/">Données
-                sur les logements Sociaux</a></li>
-        <li><a href="http://cohesion-territoires.gouv.fr/sru/docs/liste_219_communes_carencees_ciec_19042016-4.xls">Communes
-                en déficit SRU</a></li>
-        <li><a
-                href="https://www.data.gouv.fr/fr/datasets/le-logement-social-collection-politiques-publiques-vie-publique-fr/">Lois</a>
-        </li>
-    </ul>
+    <div class="mdl-cell mdl-cell--4-col">
+        <h2>Licence</h2>
+        <hr><br><br>
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License"
+            class="logoFooter" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This
+        work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative
+            Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+    </div>
 
-    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+    <div class="mdl-cell mdl-cell--4-col">
+        <h2>Utilité publique</h2>
+        <hr><br><br>
+        <a href="http://snl-union.org"><img class="logoFooter" src="./images/logo-snl.png" alt="logo snl"></a>
+        <br>
+        Application web mise à disposition de Solidarité Nouvelle pour le Logement par ses développeurs
+        <br>
+        <br>
+        
+    </div>
+
 </footer>
 
 </html>

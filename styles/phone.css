@@ -52,3 +52,10 @@ i{
 #containerCarte{
     height: auto;
 }
+
+/* Style footer */
+.logoFooter{
+    width: 10vh;
+    height: auto;
+}
+

@@ -6,11 +6,7 @@ window.addEventListener("load", function () {
     btnCarte.addEventListener("click", function(){
         document.querySelector("#containerCarte").scrollIntoView({behavior: "smooth"});
     });
-
-    btnProposition.addEventListener("click", function(){
-        document.querySelector("#proposition").scrollIntoView({behavior: "smooth"});
-    });
-
+    
     btnLois.addEventListener("click", function(){
         document.querySelector("#livreLois").scrollIntoView({behavior: "smooth"});
     });

@@ -278,3 +278,18 @@ footer a{
     color: white !important;
 }
 
+footer hr{
+    width: 20vw;
+}
+
+.logoFooter{
+    width: auto;
+    height: 4vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+footer h2{
+    text-align: center;
+}

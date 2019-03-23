@@ -1,0 +1,54 @@
+
+
+/* Style Entête*/
+
+nav .mdl-cell--1-col{
+    display: none;
+}
+
+#toggleMenu{
+    display: inline-block;
+    
+}
+
+#toggleMenu i{
+    font-size: 20px !important;
+    color: white;
+}
+
+nav button{
+    width: 100%;
+}
+
+#titreSite{
+    font-size: 20px !important;
+}
+
+.logo{
+    width: 50vw !important;
+}
+
+#sousTitre{
+    font-size: 4vw !important;
+}
+
+
+/* Syle carte */
+
+#containerCarte{
+    height: 180vh;
+}
+
+#mapid{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+i{
+    font-size: 5vh;
+}
+
+#containerCarte{
+    height: auto;
+}

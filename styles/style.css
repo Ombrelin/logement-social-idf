@@ -1,0 +1,268 @@
+/* Style de la carte Leaflet*/
+#mapid{
+
+    width: 95%;
+    height: 90vh;
+    border-radius: 2px;
+}
+
+#mapid:hover{
+    cursor: pointer;
+}
+
+#containerCarte{
+    background-color: #E65100;
+    padding: 3vw;
+    height: 90vh;
+}
+
+#carteInfos{
+    background-color: #323232;
+    color: white !important;
+    padding: 1vw;
+    width: 100%;
+    display: none;
+}
+
+#carteRecherche{
+    width: 100%;
+    height: 10vw;
+    margin-bottom: 2vw;
+}
+
+#infos{
+    color: white !important;
+    display: none;
+}
+
+#info-content{
+    color: white !important;
+}
+
+#rechercher{
+    width: 100% !important;
+}
+
+#titreInfos{
+    color: white !important;
+}
+
+i{
+    font-size: 1.5vw;
+}
+
+#tempsItineraire{
+    font-size: 3vw;
+    font-weight: bolder;
+}
+
+.mins{
+    display: none;
+    font-size: 3vw;
+    font-weight: bolder;
+}
+
+
+#D50000
+
+#timeWrapper{
+    margin-left: auto;
+    width: 80%;
+    margin-right: auto;
+    text-align: center;
+}
+
+#loader{
+    display: none;
+}
+
+/*Style de l'entête*/
+
+#toggleMenu{
+    display: none;
+}
+
+#profil{
+    display: none;
+    width: 8vw;
+    color: white !important;
+    font-weight: 500 !important;
+    transition: all 0.5s ease;
+    text-align: center;
+    line-height: 1.5vw;
+    font-size: 1vw;
+}
+
+#entete{
+    height: 99vh;
+    width: 100vw;
+}
+
+nav{
+    background-color: #E65100 !important;
+}
+
+nav button{
+    width: 8vw;
+    color: white !important;
+    font-weight: 500 !important;
+    transition: all 0.5s ease;
+}
+
+nav button:hover{
+    background-color: #FFD180 !important;
+    color: black !important;
+}
+
+#imgEntete{
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    height: 85vh;
+    width: 100vw;
+}
+
+#imgEntete{
+    padding-top: 7vh;
+}
+
+.logo{
+    display: block;
+    width: 25vw !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titreSite{
+    color: white;
+    font-size: 1.2vw !important;
+    margin-top: 0.2vw;
+    margin-bottom: 0;
+}
+
+#sousTitre{
+    color: white;
+    font-size: 2vw !important;
+    background-color: #FF6D00;
+    text-align: center;
+    width: 60vw;
+    padding: 1vw;
+    border-radius: 2px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 1.2;
+}
+
+hr{
+    width: 30vw;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    border: none !important;
+    height: 5px !important;
+    background-color: #ffff;
+    border-radius: 5px;
+}
+
+/* Style des formulaire*/
+
+.invalide{
+    border-color: red !important;
+}
+
+.rouge{
+    color: red;
+    display: none;
+}
+
+/* Style du livre des lois*/
+
+.mdl-card__supporting-text{
+    text-align: justify;
+}
+
+h4{
+    text-align: left;
+}
+
+#livreLois{
+    background-color: #323232;
+}
+
+#livreLois .mdl-card{
+    min-height: 0 !important;
+}
+
+#livreLois .mdl-card__supporting-text{
+    display: none;
+}
+
+#livreLois .mdl-card__title-text{
+    align-self: flex-start !important;
+    background-color: #FF6D00 !important;
+    color: white !important;
+    width: 100% !important;
+    padding-left: 3vw;
+}
+
+#livreLois .mdl-card__title-text:hover{
+    cursor: pointer;
+}
+
+#livreLois h3{
+    color: white !important;
+    text-align: center;
+}
+
+/* Style des propositions */
+
+#btnModaleAddProposition{
+    display: none;
+    color: white;
+}
+
+#proposition{
+    background-color: #E65100;
+}
+
+#proposition h3{
+    margin-top: 0;
+    padding-top: 3vw !important;
+}
+
+#proposition .mdl-card{
+    min-height: 0 !important;
+}
+
+#proposition .mdl-card__supporting-text{
+    display: none;
+}
+
+#proposition .mdl-card__title-text{
+    align-self: flex-start !important;
+    background-color: #323232 !important;
+    color: white !important;
+    width: 100% !important;
+    padding-left: 3vw;
+}
+
+#proposition .mdl-card__title-text:hover{
+    cursor: pointer;
+}
+
+#proposition h3{
+    color: white !important;
+    text-align: center;
+}
+
+
+/* Style du footer */
+
+footer{
+    background-color: #323232;
+    color: white;
+}
+
+footer a{
+    color: white !important;
+}
+

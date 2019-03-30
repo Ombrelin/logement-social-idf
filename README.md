@@ -2,7 +2,7 @@
 
 Logement social IDF est une application web qui permet de consulter des données à propos de l'état du logement social dans les communes d'Ile de France.
 
-[Capture d'écran de l'application](https://framagit.org/Ombrelin/logement-social-idf/blob/master/screenshot.png)
+![Capture d'écran de l'application](https://framagit.org/Ombrelin/logement-social-idf/blob/master/screenshot.png)
 
 ## Fonctionnalités
 

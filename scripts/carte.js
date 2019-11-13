@@ -64,7 +64,7 @@ window.addEventListener("load", function () {
             // 2) Récupération du GeoJSON de la ville
 
             $.getJSON('https://api-adresse.data.gouv.fr/search?q=' + data.features[0].properties.city + '&type=municipality', function (result) { // Procédure AJAX avec décodage JSON intégré sur l'API adresse.data.gouv.fr
-                $('#pop').html(parseFloat(result.features[0].properties.population) * 1000); // On met la population de la ville dans les infos
+                $('#pop').html(parseFloat(result.features[0].properties.population)); // On met la population de la ville dans les infos
                 compteur($('#pop'));
             });
 
